@@ -1,0 +1,22 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui;background:#f8fafc;color:#111}
+.app{min-height:100vh}
+.header{display:flex;justify-content:space-between;align-items:center;padding:16px 24px;background:#fff;border-bottom:1px solid #e5e7eb;position:sticky;top:0;z-index:10}
+.header a{text-decoration:none;color:#111;font-weight:600;margin-left:12px}
+.section{max-width:1100px;margin:0 auto;padding:24px}
+.calculator-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.ad-slot{background:#fff3cd;border:1px dashed #ffc107;padding:20px;border-radius:12px;text-align:center;margin:20px 0;font-weight:600;color:#664d03}
+.compare-wrapper{margin-top:32px}
+.compare-wrapper h3{font-size:20px;font-weight:700;margin-bottom:12px}
+.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.compare-card{border:1px solid #e5e7eb;border-radius:16px;padding:16px;background:#fff;box-shadow:0 4px 12px rgba(0,0,0,0.05);transition:0.2s}
+.compare-card:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,0,0,0.08)}
+.bank-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.bank-head h4{margin:0;font-size:16px;font-weight:700}
+.tag{font-size:10px;background:#e0f2fe;color:#0369a1;padding:3px 8px;border-radius:999px;font-weight:700;text-transform:uppercase}
+.rate{margin:8px 0;font-weight:600;color:#334155;font-size:14px}
+.cta-btn{display:block;text-align:center;background:#111;color:#fff;padding:10px 12px;border-radius:10px;text-decoration:none;margin-top:10px;font-weight:600}
+.cta-btn:hover{background:#000}
+.aff-disc{font-size:10px;color:#94a3b8;margin-top:8px;text-align:center}
+.trust-box{margin-top:20px;font-size:12px;color:#667;background:#f1f5f9;padding:12px;border-radius:8px;border:1px solid #e2e8f0}
+input[type="range"]{width:100%;accent-color:#111;margin:10px 0}
