@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react'
 import { Routes, Route, Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import { AFFILIATES } from './data/affiliateConfig'
-
+import { Analytics } from "@vercel/analytics/react";
 const fmt = (n) => new Intl.NumberFormat('en-IN').format(Math.round(n))
 
 const calcEMI = (P,R,Y) => {
@@ -396,6 +396,7 @@ export default function App(){
        .app-header nav a { padding: 5px 9px!important; font-size: 12px!important; }
        .calc-page { padding: 14px!important; }
        .home-grid { grid-template-columns: 1fr!important; } 
+       
        .responsive-compare-grid { grid-template-columns: 1fr!important; }
         }
       `}</style>
@@ -422,6 +423,7 @@ export default function App(){
         </Routes>
       </main>
       <Footer />
+      <Analytics />
     </div>
   )
 }
