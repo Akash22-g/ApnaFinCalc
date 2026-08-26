@@ -107,7 +107,7 @@ const Footer = () => (
         <Link to="/contact" style={{color:'#d1d5db', textDecoration:'none'}}>Contact Us</Link>
         <Link to="/disclaimer" style={{color:'#d1d5db', textDecoration:'none'}}>Disclaimer</Link>
       </div>
-      <p style={{fontSize:12, margin:0, lineHeight:1.6}}>© {new Date().getFullYear()} ApnaFinCalc.com - All calculators are for educational purpose only. We are not SEBI registered advisors. Please consult your financial advisor before investing.<br/>Made with ❤️ for Indian Investors | support@apnafincalc.com</p>
+      <p style={{fontSize:12, margin:0, lineHeight:1.6}}>© {new Date().getFullYear()} ApnaFinCalc.com - All calculators are for educational purpose only. We are not SEBI registered advisors. Please consult your financial advisor before investing.<br/>Made with ❤️ for Investors | support@apnafincalc.com</p>
     </div>
   </footer>
 )
@@ -124,7 +124,7 @@ const StaticWrapper = ({title, children}) => (
 
 const AboutPage = () => (
   <StaticWrapper title="About ApnaFinCalc">
-    <p><strong>ApnaFinCalc</strong> is built for Indian investors who want fast, accurate and simple financial calculators.</p>
+    <p><strong>ApnaFinCalc</strong> is built for investors who want fast, accurate and simple financial calculators.</p>
     <p style={{marginTop:12}}>Our mission is simple: <strong>Calculate. Compare. Choose Better.</strong> We provide 11+ calculators like SIP, FD, Home Loan EMI, Personal Loan, Lumpsum, Step-Up SIP, SWP, CAGR, XIRR and Income Tax (New Regime 2025-26).</p>
     <p style={{marginTop:12}}>All calculations are done on your device, we do not store your financial data. Rates shown in comparison tables are sourced from official bank websites.</p>
     <p style={{marginTop:12}}>Contact: support@apnafincalc.com</p>
