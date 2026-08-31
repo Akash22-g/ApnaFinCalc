@@ -127,7 +127,7 @@ const AboutPage = () => (
     <p><strong>ApnaFinCalc</strong> is built for investors who want fast, accurate and simple financial calculators.</p>
     <p style={{marginTop:12}}>Our mission is simple: <strong>Calculate. Compare. Choose Better.</strong> We provide 11+ calculators like SIP, FD, Home Loan EMI, Personal Loan, Lumpsum, Step-Up SIP, SWP, CAGR, XIRR and Income Tax (New Regime 2025-26).</p>
     <p style={{marginTop:12}}>All calculations are done on your device, we do not store your financial data. Rates shown in comparison tables are sourced from official bank websites.</p>
-    <p style={{marginTop:12}}>Contact: support@apnafincalc.com</p>
+    <p style={{marginTop:12}}>Contact: apnafincalcsupport@gmail.com</p>
   </StaticWrapper>
 )
 const PrivacyPage = () => (
@@ -136,7 +136,7 @@ const PrivacyPage = () => (
     <p style={{marginTop:12}}><strong>1. Cookies & AdSense:</strong> We use Google AdSense to show ads. Google uses cookies and DART cookies to show personalized ads based on your visits to this and other sites.</p>
     <p style={{marginTop:12}}><strong>2. Affiliate Disclosure:</strong> This site contains affiliate links. If you click and apply, we may earn commission.</p>
     <p style={{marginTop:12}}><strong>3. Data we collect:</strong> We do not collect your loan amount or SIP amount. Contact form data only used to reply.</p>
-    <p style={{marginTop:12}}>For any privacy concern: support@apnafincalc.com</p>
+    <p style={{marginTop:12}}>For any privacy concern: apnafincalcsupport@gmail.com</p>
   </StaticWrapper>
 )
 const ContactPage = () => {
@@ -150,7 +150,7 @@ const ContactPage = () => {
       <textarea placeholder="Your Message" rows={5} style={{padding:12, borderRadius:10, border:'1px solid #d1d5db'}}></textarea>
       <button onClick={()=>setSent(true)} style={{padding:12, borderRadius:10, background:'#111827', color:'#fff', fontWeight:800, border:'none'}}>{sent? "Message Sent! ✅" : "Send Message"}</button>
       {sent && <p style={{color:'#059669', fontWeight:700}}>Thanks! We will reply within 24 hours.</p>}
-      <p style={{fontSize:12, color:'#6b7280'}}>Email: support@apnafincalc.com | We reply in 24h</p>
+      <p style={{fontSize:12, color:'#6b7280'}}>Email: apnafincalcsupport@gmail.com | We reply in 24h</p>
     </div>
   </StaticWrapper>
   )
@@ -159,7 +159,7 @@ const DisclaimerPage = () => (
   <StaticWrapper title="Disclaimer & Terms - ApnaFinCalc">
     <p><strong>ApnaFinCalc is not a financial advisor.</strong> We are not SEBI registered. All calculators provide estimates only.</p>
     <p style={{marginTop:12}}><strong>No Guarantee:</strong> SIP returns are market linked. FD rates change as per bank.</p>
-    <p style={{marginTop:12}}>By using this site, you agree to our Privacy Policy and Terms. Contact: support@apnafincalc.com</p>
+    <p style={{marginTop:12}}>By using this site, you agree to our Privacy Policy and Terms. Contact: apnafincalcsupport@gmail.com</p>
   </StaticWrapper>
 )
 
