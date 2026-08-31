@@ -107,7 +107,7 @@ const Footer = () => (
         <Link to="/contact" style={{color:'#d1d5db', textDecoration:'none'}}>Contact Us</Link>
         <Link to="/disclaimer" style={{color:'#d1d5db', textDecoration:'none'}}>Disclaimer</Link>
       </div>
-      <p style={{fontSize:12, margin:0, lineHeight:1.6}}>© {new Date().getFullYear()} ApnaFinCalc.com - All calculators are for educational purpose only. We are not SEBI registered advisors. Please consult your financial advisor before investing.<br/>Made with ❤️ for Investors | support@apnafincalc.com</p>
+      <p style={{fontSize:12, margin:0, lineHeight:1.6}}>© {new Date().getFullYear()} ApnaFinCalc.com - All calculators are for educational purpose only. We are not SEBI registered advisors. Please consult your financial advisor before investing.<br/>Made with ❤️ for Investors | apnafincalcsupport@gmail.com</p>
     </div>
   </footer>
 )
